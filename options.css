@@ -1,0 +1,106 @@
+/* The 'color' modifier would be 'red', 'green', 'blue', etc. */
+
+:root {
+  --primary: rgba(0, 143, 143, 1);
+  --primary-tint: rgba(0, 190, 190, 1);
+  --primary-shade: rgba(0, 96, 96, 1);
+}
+
+.input--primary,
+.textarea--primary {
+  color: var(--primary);
+  background: var(--white);
+  border-color: var(--primary);
+}
+
+.input--primary:hover,
+.input--primary:focus,
+.input--primary:active,
+.textarea--primary:hover,
+.textarea--primary:focus,
+.textarea--primary:active {
+  border-color: var(--primary-tint);
+}
+
+.input--primary::placeholder,
+.textarea--primary::placeholder {
+  color: var(--primary);
+}
+
+.button--primary {
+  color: var(--white);
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+.button--primary:hover,
+.button--primary:focus,
+.button--primary:active {
+  color: var(--white);
+  background: var(--primary-tint);
+  border-color: var(--primary-tint);
+}
+
+.checkbox--primary::before,
+.radio--primary::before {
+  border-color: var(--primary);
+}
+
+.checkbox--primary::after,
+.radio--primary::after {
+  background: var(--primary);
+}
+
+.checkbox--primary:hover::before,
+.radio--primary:hover::before,
+.checkbox--primary:focus::before,
+.radio--primary:focus::before,
+.checkbox--primary:active::before,
+.radio--primary:active::before {
+  border-color: var(--primary-tint);
+}
+
+.checkbox--primary:hover::after,
+.radio--primary:hover::after,
+.checkbox--primary:focus::after,
+.radio--primary:focus::after,
+.checkbox--primary:active::after,
+.radio--primary:active::after {
+  background: var(--primary-tint);
+}
+
+.label--primary {
+  color: var(--primary);
+}
+
+.label--primary:hover,
+.label--primary:focus,
+.label--primary:active {
+  color: var(--primary-tint);
+}
+
+.select--primary {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.select--primary:hover,
+.select--primary:focus,
+.select--primary:active {
+  border-color: var(--primary-tint);
+}
+
+.option--primary {
+  color: var(--primary);
+}
+
+.option--primary:hover,
+.option--primary:focus,
+.option--primary:active {
+  background: var(--primary-tint);
+}
+
+.option--primary:checked {
+  background: var(--primary)
+    linear-gradient(0deg, var(--primary) 0%, var(--primary) 100%);
+}

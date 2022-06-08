@@ -1,0 +1,49 @@
+:root {
+  --transparent: transparent;
+  --black: rgba(0, 0, 0, 1);
+  --white: rgba(255, 255, 255, 1);
+  --dark: rgba(31, 31, 39, 1);
+  --light: rgba(223, 223, 231, 1);
+  --medium: rgba(127, 127, 135, 1);
+
+  --light1: rgba(223, 223, 223, 1);
+  --light2: rgba(191, 191, 191, 1);
+  --light3: rgba(159, 159, 159, 1);
+  --dark1: rgba(31, 31, 31, 1);
+  --dark2: rgba(63, 63, 63, 1);
+  --dark3: rgba(95, 95, 95, 1);
+
+  --light-tint: rgba(239, 239, 243, 1);
+  --light-shade: rgba(207, 207, 215, 1);
+  --dark-tint: rgba(47, 47, 55, 1);
+  --dark-shade: rgba(15, 15, 23, 1);
+  --medium-tint: rgba(143, 143, 151, 1);
+  --medium-shade: rgba(111, 111, 119, 1);
+
+  --red: rgba(239, 79, 119, 1);
+  --orange: rgba(239, 123, 107, 1);
+  --yellow: rgba(239, 175, 127, 1);
+  --green: rgba(95, 175, 127, 1);
+  --cyan: rgba(0, 143, 143, 1);
+  --blue: rgba(0, 87, 159, 1);
+  --indigo: rgba(87, 63, 159, 1);
+  --violet: rgba(159, 63, 159, 1);
+
+  --red-tint: rgba(255, 105, 158, 1);
+  --orange-tint: rgba(255, 164, 142, 1);
+  --yellow-tint: rgba(255, 233, 169, 1);
+  --green-tint: rgba(126, 233, 169, 1);
+  --cyan-tint: rgba(0, 190, 190, 1);
+  --blue-tint: rgba(0, 116, 211, 1);
+  --indigo-tint: rgba(116, 84, 211, 1);
+  --violet-tint: rgba(211, 84, 211, 1);
+
+  --red-shade: rgba(160, 53, 85, 1);
+  --orange-shade: rgba(160, 82, 72, 1);
+  --yellow-shade: rgba(160, 117, 85, 1);
+  --green-shade: rgba(64, 117, 85, 1);
+  --cyan-shade: rgba(0, 96, 96, 1);
+  --blue-shade: rgba(0, 58, 106, 1);
+  --indigo-shade: rgba(58, 42, 106, 1);
+  --violet-shade: rgba(107, 42, 107, 1);
+}
